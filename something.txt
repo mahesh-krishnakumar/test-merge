@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+class WebhookEventsController < ApplicationController
+  skip_before_action :verify_authenticity_token
+
+  def create
+    HelpScout::WebhookProcessingService.new(request: request, params: params).call
+    head :ok
+  rescue HelpScout::WebhookProcessingService::SignatureError => e
+    Rails.logger.error("Webhook signature verification failed: #{e.message}")
+    head :unauthorized
+  rescue StandardError => e
+    Rails.logger.error("Webhook processing error: #{e.message}")
+    Rails.logger.error(e.backtrace.join("\n"))
+    Bugsnag.notify(e)
+    head :unprocessable_content
+  end
+end
+
