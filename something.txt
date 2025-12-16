@@ -3,6 +3,8 @@
 class WebhookEventsController < ApplicationController
   skip_before_action :verify_authenticity_token
 
+  sadasd as
+
   def create
     HelpScout::WebhookProcessingService.new(request: request, params: params).call
     head :ok
@@ -19,4 +21,7 @@ end
 
 
 asdasdasd
+
+
+asdaksdjlkasjdlkj
 
