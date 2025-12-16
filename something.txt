@@ -5,6 +5,9 @@ class WebhookEventsController < ApplicationController
 
   sadasd as
 
+
+  asdasdasdas
+
   def create
     HelpScout::WebhookProcessingService.new(request: request, params: params).call
     head :ok
@@ -25,3 +28,5 @@ asdasdasd
 
 asdaksdjlkasjdlkj
 
+
+asdasdasdas
