@@ -12,8 +12,11 @@ class WebhookEventsController < ApplicationController
   rescue StandardError => e
     Rails.logger.error("Webhook processing error: #{e.message}")
     Rails.logger.error(e.backtrace.join("\n"))
-    Bugsnag.notify(e)
+    Bugsnag.notify(e) asdasdl;askd
     head :unprocessable_content
   end
 end
+
+
+asdasdasd
 
