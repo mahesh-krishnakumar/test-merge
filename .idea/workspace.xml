@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cc6f4355-ccad-497d-9233-cf31d42e00f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/something.txt" beforeDir="false" afterPath="$PROJECT_DIR$/something.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +15,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="36uT1fJHEghSKOlYaDqR3Zwkpnq" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -29,7 +32,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP": "1765855304399",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "branch-4",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/mahesh/Developer/Clerky/test-merge",
     "node.js.detected.package.eslint": "true",
@@ -56,12 +59,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765855244305</updated>
-      <workItem from="1765855245649" duration="496000" />
+      <workItem from="1765855245649" duration="1349000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
